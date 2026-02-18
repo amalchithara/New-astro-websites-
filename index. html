@@ -1,1 +1,440 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ശ്രീ ചൈതന്യഭൈരവി ജ്യോതിഷം - Professional Astrology Services. Horoscope reading, Vastu consultation, Gemstone recommendation and more.">
+    <meta name="keywords" content="astrology, jyothisham, horoscope, vastu, kerala astrology, ജ്യോതിഷം, രാശിഫലം">
+    <meta name="author" content="ശ്രീ ചൈതന്യഭൈരവി ജ്യോതിഷം">
+
+    <meta property="og:title" content="ശ്രീ ചൈതന്യഭൈരവി ജ്യോതിഷം">
+    <meta property="og:description" content="Professional Vedic Astrology Services">
+    <meta property="og:type" content="website">
+
+    <title>ശ്രീചൈതന്യ ഭൈരവി ജ്യോതിഷം | Vedic Astrology Services</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="loader">
+            <div class="om-symbol">ॐ</div>
+            <p>ശ്രീ ചൈതന്യഭൈരവി ജ്യോതിഷം</p>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">☉</span>
+                <div class="logo-text">
+                    <span class="logo-main">ശ്രീചൈതന്യ ഭൈരവി</span>
+                    <span class="logo-sub">ജ്യോതിഷം</span>
+                </div>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">
+                    <i class="fas fa-home"></i> ഹോം
+                </a>
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-user"></i> ഞങ്ങളെക്കുറിച്ച്
+                </a>
+                <a href="#services" class="nav-link">
+                    <i class="fas fa-star"></i> സേവനങ്ങൾ
+                </a>
+                <a href="#rashi" class="nav-link">
+                    <i class="fas fa-moon"></i> രാശിഫലം
+                </a>
+                <a href="#testimonials" class="nav-link">
+                    <i class="fas fa-comments"></i> അനുഭവങ്ങൾ
+                </a>
+                <a href="#gallery" class="nav-link">
+                    <i class="fas fa-images"></i> ഗാലറി
+                </a>
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-phone"></i> ബന്ധപ്പെടുക
+                </a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20ജ്യോതിഷ%20സേവനത്തെക്കുറിച്ച്%20അറിയാൻ%20ആഗ്രഹിക്കുന്നു." class="nav-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up">
+            <div class="hero-badge">✨ DiViNe GuiDaNcE</div>
+            <h1 class="hero-title">
+                <span class="hero-title-line">ശ്രീ ചൈതന്യ ഭൈരവി</span>
+                <span class="hero-title-main">ജ്യോതിഷം</span>
+            </h1>
+            <p class="hero-subtitle">
+                വൈദിക ജ്യോതിഷത്തിന്റെ അഗാധ ജ്ഞാനത്തിലൂടെ<br>
+                നിങ്ങളുടെ ജീവിതത്തിന് ശരിയായ ദിശ കണ്ടെത്തൂ
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="150">0</span>+
+                    <span class="stat-label">വർഷങ്ങളുടെ അനുഭവം</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5000">0</span>+
+                    <span class="stat-label">സന്തുഷ്ട ഉപഭോക്താക്കൾ</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="20">0</span>+
+                    <span class="stat-label">സേവനങ്ങൾ</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20ജ്യോതിഷ%20കൺസൾട്ടേഷൻ%20ബുക്ക്%20ചെയ്യാൻ%20ആഗ്രഹിക്കുന്നു." class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> വാട്സ്ആപ്പിൽ ബന്ധപ്പെടുക
+                </a>
+                <a href="#services" class="btn btn-outline">
+                    <i class="fas fa-star"></i> സേവനങ്ങൾ കാണുക
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about">
+                <div class="scroll-indicator">
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <span>🔱 ജാതക പരിശോധന</span>
+            <span>☉ വിവാഹ പൊരുത്തം</span>
+            <span>🪐 ദോഷ പരിഹാരം</span>
+            <span>💎 രത്ന നിർദ്ദേശം</span>
+            <span>🏠 വാസ്തു ശാസ്ത്രം</span>
+            <span>📿 മുഹൂർത്തം</span>
+            <span>⭐ പ്രശ്ന വിചാരം</span>
+            <span>🔮 നക്ഷത്ര ഫലം</span>
+            <span>🔱 ജാതക പരിശോധന</span>
+            <span>☉ വിവാഹ പൊരുത്തം</span>
+            <span>🪐 ദോഷ പരിഹാരം</span>
+            <span>💎 രത്ന നിർദ്ദേശം</span>
+        </div>
+    </div>
+
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">☉ ഞങ്ങളെക്കുറിച്ച്</span>
+                <h2 class="section-title">പാരമ്പര്യ ജ്യോതിഷ പാണ്ഡിത്യം</h2>
+                <p class="section-desc">വൈദിക ജ്യോതിഷ ശാസ്ത്രത്തിന്റെ ആഴമേറിയ അറിവും അനുഭവ സമ്പത്തും</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-img-wrapper">
+                        <div class="about-img-placeholder">
+                            <i class="fas fa-om"></i>
+                            <span>ജ്യോതിഷാചാര്യൻ</span>
+                        </div>
+                        <div class="about-experience-badge">
+                            <span class="exp-number">150+</span>
+                            <span class="exp-text">വർഷങ്ങൾ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-left">
+                    <h3>ശ്രീ ചൈതന്യ ഭൈരവി ജ്യോതിഷ കേന്ദ്രം</h3>
+                    <p>
+                        നൂറ്റിഅൻപത് വർഷത്തിലധികം പ്രവൃത്തിപരിചയമുള്ള ഞങ്ങളുടെ ജ്യോതിഷ കേന്ദ്രം,
+                        വൈദിക ജ്യോതിഷ ശാസ്ത്രത്തിന്റെ പാരമ്പര്യ രീതികൾ അനുസരിച്ച്
+                        കൃത്യമായ ജാതക പരിശോധനയും ഫലപ്രദമായ പരിഹារ മാർഗ്ഗങ്ങളും നൽകുന്നു.
+                    </p>
+                    <p>
+                        ജീവിതത്തിലെ എല്ലാ പ്രശ്നങ്ങൾക്കും - വിവാഹം, ആരോഗ്യം, സാമ്പത്തികം,
+                        വിദ്യാഭ്യാസം, തൊഴിൽ എന്നിവയ്ക്കും ശാസ്ത്രീയമായ പരിഹാരം കണ്ടെത്താം.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>വൈദിക ജ്യോതിഷ വിദഗ്ധൻ</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>കൃത്യമായ ഫല പ്രവചനം</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>ഫലപ്രദ പരിഹാര മാർഗ്ഗങ്ങൾ</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>ഓൺലൈൻ & ഓഫ്‌ലൈൻ കൺസൾട്ടേഷൻ</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>രഹസ്യ സ്വഭാവം ഉറപ്പ്</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24/7 വാട്സ്ആപ്പ് സപ്പോർട്ട്</span>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20ജ്യോതിഷ%20കൺസൾട്ടേഷനെ%20കുറിച്ച്%20കൂടുതൽ%20അറിയാൻ%20ആഗ്രഹിക്കുന്നു." class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> ഇപ്പോൾ ബന്ധപ്പെടുക
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section services-section" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">⭐ സേവനങ്ങൾ</span>
+                <h2 class="section-title">ഞങ്ങളുടെ ജ്യോതിഷ സേവനങ്ങൾ</h2>
+                <p class="section-desc">ജീവിതത്തിന്റെ എല്ലാ മേഖലകളിലും വൈദിക ജ്യോതിഷ മാർഗ്ഗദർശനം</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <h3>ജാതക പരിശോധന</h3>
+                    <p>ജനന സമയം, തീയതി, സ്ഥലം എന്നിവ അടിസ്ഥാനമാക്കി വിശദമായ ജാതക വിശകലനം.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20ജാതക%20പരിശോധനയെ%20കുറിച്ച്%20അറിയാൻ%20ആഗ്രഹിക്കുന്നു." class="service-link" target="_blank">
+                        കൂടുതൽ അറിയുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>വിവാഹ പൊരുത്തം</h3>
+                    <p>ജാതക പൊരുത്ത പരിശോധന, വിവാഹ മുഹൂർത്തം, ദോഷ പരിഹാരം.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20വിവാഹ%20പൊരുത്ത%20പരിശോധനയ്ക്ക്%20ബന്ധപ്പെടുന്നു." class="service-link" target="_blank">
+                        കൂടുതൽ അറിയുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>വാസ്തു ശാസ്ത്രം</h3>
+                    <p>ഗൃഹ വാസ്തു, ബിസിനസ്സ് വാസ്തു, ഭൂമി പരിശോധന, വാസ്തു ദോഷ പരിഹാരം.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20വാസ്തു%20കൺസൾട്ടേഷനെ%20കുറിച്ച്%20അറിയാൻ%20ആഗ്രഹിക്കുന്നു." class="service-link" target="_blank">
+                        കൂടുതൽ അറിയുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>രത്ന നിർദ്ദേശം</h3>
+                    <p>ജാതക പ്രകാരം അനുയോജ്യമായ രത്നം കണ്ടെത്തി ധരിക്കാനുള്ള മാർഗ്ഗനിർദ്ദേശം.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20രത്ന%20നിർദ്ദേശത്തിന്%20ബന്ധപ്പെടുന്നു." class="service-link" target="_blank">
+                        കൂടുതൽ അറിയുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>മുഹൂർത്തം</h3>
+                    <p>ഗൃഹപ്രവേശം, വിവാഹം, ബിസിനസ്സ് തുടക്കം എന്നിവയ്ക്ക് ശുഭ മുഹൂർത്തം.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20മുഹൂർത്ത%20നിശ്ചയത്തിന്%20ബന്ധപ്പെടുന്നു." class="service-link" target="_blank">
+                        കൂടുതൽ അറിയുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>ദോഷ പരിഹാരം</h3>
+                    <p>മംഗല്യ ദോഷം, കാല സർപ്പ ദോഷം, ശനി ദോഷം എന്നിവയ്ക്ക് ഫലപ്രദ പരിഹാരം.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20ദോഷ%20പരിഹാരത്തിന്%20ബന്ധപ്പെടുന്നു." class="service-link" target="_blank">
+                        കൂടുതൽ അറിയുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>പ്രശ്ന വിചാരം</h3>
+                    <p>ജീവിതത്തിലെ സംശയങ്ങൾക്കും പ്രശ്നങ്ങൾക്കും പ്രശ്ന ചിന്ത വഴി ഉത്തരം.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20പ്രശ്ന%20വിചാരത്തിന്%20ബന്ധപ്പെടുന്നു." class="service-link" target="_blank">
+                        കൂടുതൽ അറിയുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>നാമകരണം</h3>
+                    <p>കുഞ്ഞിന്റെ നക്ഷത്രം അനുസരിച്ച് ശുഭകരമായ പേര് നിർദ്ദേശിക്കുന്നു.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20നാമകരണത്തിന്%20ബന്ധപ്പെടുന്നു." class="service-link" target="_blank">
+                        കൂടുതൽ അറിയുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card special-card" data-aos="fade-up" data-aos-delay="900">
+                    <div class="service-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>ഓൺലൈൻ കൺസൾട്ടേഷൻ</h3>
+                    <p>വീട്ടിലിരുന്ന് തന്നെ വാട്സ്ആപ്പ്, വീഡിയോ കോൾ വഴി കൺസൾട്ടേഷൻ.</p>
+                    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20ഓൺലൈൻ%20കൺസൾട്ടേഷൻ%20ബുക്ക്%20ചെയ്യാൻ%20ആഗ്രഹിക്കുന്നു." class="service-link" target="_blank">
+                        ഇപ്പോൾ ബുക്ക് ചെയ്യുക <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section rashi-section" id="rashi">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">🌙 രാശിഫലം</span>
+                <h2 class="section-title">ഇന്നത്തെ രാശിഫലം</h2>
+                <p class="section-desc">നിങ്ങളുടെ രാശി തിരഞ്ഞെടുത്ത് വിശദമായ ഫലം അറിയൂ</p>
+            </div>
+
+            <div class="rashi-grid">
+                <div class="rashi-card" data-aos="zoom-in" data-aos-delay="50" onclick="openRashiModal('മേടം', '♈', 'ഇന്ന് സാമ്പത്തിക കാര്യങ്ങളിൽ ശ്രദ്ധ വേണം. കുടുംബ ജീവിതത്തിൽ സന്തോഷം ഉണ്ടാകും. പുതിയ സംരംഭങ്ങൾ തുടങ്ങാൻ അനുകൂല സമയം.')">
+                    <span class="rashi-symbol">♈</span>
+                    <span class="rashi-name">മേടം</span>
+                    <span class="rashi-eng">Aries</span>
+                </div>
+                <div class="rashi-card" data-aos="zoom-in" data-aos-delay="600" onclick="openRashiModal('മീനം', '♓', 'ആത്മീയ വളർച്ച ഉണ്ടാകും. കലാ-സാഹിത്യ താൽപര്യം. സ്വപ്നങ്ങൾ യാഥാർത്ഥ്യമാകാൻ സാധ്യത.')">
+                    <span class="rashi-symbol">♓</span>
+                    <span class="rashi-name">മീനം</span>
+                    <span class="rashi-eng">Pisces</span>
+                </div>
+            </div>
+
+            <div class="rashi-cta" data-aos="fade-up">
+                <p>വിശദമായ രാശിഫലം അറിയാൻ ഇപ്പോൾ ബന്ധപ്പെടുക</p>
+                <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20എന്റെ%20വിശദമായ%20രാശിഫലം%20അറിയാൻ%20ആഗ്രഹിക്കുന്നു." class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> വാട്സ്ആപ്പിൽ ബന്ധപ്പെടുക
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="rashiModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeRashiModal()">×</button>
+            <div class="modal-symbol" id="modalSymbol">♈</div>
+            <h3 class="modal-title" id="modalTitle">മേടം</h3>
+            <p class="modal-text" id="modalText"></p>
+            <a href="https://wa.me/918136873379" class="btn btn-whatsapp modal-wa-btn" id="modalWaBtn" target="_blank">
+                <i class="fab fa-whatsapp"></i> വിശദമായ ഫലം അറിയുക
+            </a>
+        </div>
+    </div>
+
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">📞 ബന്ധപ്പെടുക</span>
+                <h2 class="section-title">ഞങ്ങളെ ബന്ധപ്പെടുക</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>വാട്സ്ആപ്പ്</h3>
+                            <p>+91 81368 73379</p>
+                            <a href="https://wa.me/918136873379" target="_blank">മെസേജ് അയക്കുക →</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon phone">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>ഫോൺ</h3>
+                            <p>+91 81368 73379</p>
+                            <a href="tel:+918136873379">ഇപ്പോൾ വിളിക്കുക →</a>
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <h3>സന്ദേശം അയക്കുക</h3>
+                        <button type="submit" class="btn btn-whatsapp btn-full">
+                            <i class="fab fa-whatsapp"></i> വാട്സ്ആപ്പ് വഴി അയക്കുക
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-contact">
+                    <h4>ബന്ധപ്പെടുക</h4>
+                    <div class="footer-contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/918136873379">+91 81368 73379</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+918136873379">+91 81368 73379</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/918136873379?text=നമസ്കാരം!%20ജ്യോതിഷ%20സേവനത്തെക്കുറിച്ച്%20അറിയാൻ%20ആഗ്രഹിക്കുന്നു." class="whatsapp-float" target="_blank" id="whatsappFloat">
+        <div class="wa-pulse"></div>
+        <i class="fab fa-whatsapp"></i>
+        <span class="wa-tooltip">ഇപ്പോൾ ചാറ്റ് ചെയ്യൂ!</span>
+    </a>
+
+    <a href="tel:+918136873379" class="call-float" id="callFloat">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
 
